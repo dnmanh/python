@@ -15,6 +15,5 @@ def greet(who_to_greet):
 
 
 print(greet("World"))
-print(greet("Manh"))
 r = requests.get("http://justforlearning.xyz:9090")
 print(r.status_code)
